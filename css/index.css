@@ -1,0 +1,284 @@
+:root{
+    --bg-gradient: linear-gradient(180deg,#e6e6e6 0%,#eef2ff 100%);
+    --soft-bg: linear-gradient(180deg,#ffffff 0%,#f7f8fc 100%);
+    --card-gradient: linear-gradient(135deg,#7c3aed 0%,#06b6d4 100%);
+    --accent-gradient: linear-gradient(135deg,#06b6d4 0%,#7c3aed 100%);
+    --warning-gradient: linear-gradient(135deg,#ffd166 0%,#ff7a7a 100%);
+    --text: #0f172a;
+    --muted: #6b7280;
+    --white: #ffffff;
+    --accent-color: #7c3aed;
+    --accent-color-2: #06b6d4;
+}
+
+
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    background:var(--bg-gradient);
+}
+
+.btn-index{
+    background: var(--accent-gradient);
+    color: var(--white);
+}
+
+.btn-index:hover{
+    background: var(--card-gradient);
+    color: var(--white);
+}
+
+/* hero */
+.hero{
+    background-color:var(--soft-bg);
+    padding: 50px 0;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    color:var(--text);
+    font-family: 'Lora', serif;
+    margin: 20px;
+}
+
+.SkyWings-Hero-Image {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.info-card{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: var(--card-gradient);
+}
+
+.info-card:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+@media (min-width: 1024px) {
+    .btn.btn-primary{
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+}
+
+.col-md-6.col-sm-12.justify-content-center{
+    gap: 20px;
+}
+
+.info-hero-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--text);
+    font-family: 'Lora', serif;
+    margin-bottom: 25px;
+}
+@media (min-width:567px) {
+    .info-hero-title{
+        margin-top: 20px;
+    }
+}
+
+
+/* offers */
+
+.offers{
+    background: var(--card-gradient);
+    padding: 50px 0;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.title-offers{
+    font-size: 2.5rem;
+    color: var(--text);
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+}
+
+.hot-offers-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+}
+
+.hot-offers-card:hover{
+    border: 10px;
+}
+
+.hot-offers-img{
+    object-fit: cover;
+    height: 500px;
+    filter:brightness(0.9)
+}
+
+.hot-offers-description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:var(--white);
+    padding: 3%;
+    text-align: center;
+}
+
+.offers-card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/*Why Choose Us*/
+
+.title-why-choose-us{
+    font-size: 2.5rem;
+    color:var(--text);
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+}
+
+.why-choose-us{
+    background-color:var(--soft-bg);
+    padding: 50px 0;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.choose-us-icon{
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.card-title-why-choose-us{
+    font-family: 'italic', serif;
+    margin-top: 0;
+}
+
+.choose-us-card-body{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    color: var(--white);
+    background: var(--card-gradient);
+}
+
+.choose-us-card-body:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+    background:var(--warning-gradient);
+    color: var(--text);
+}
+
+/* Comments */
+.title-comments{
+    font-size: 2.5rem;
+    color:var(--text);
+    font-family: 'Lora', serif;
+}
+
+.sec-title-comments{
+    font-size: 1.5rem;
+    color: var(--text);
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.comments-container{
+    margin: 30p;
+}
+
+.customer-img{
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.customer-name{
+    font-size: 1.2rem;
+    color:var(--text);
+    font-family: 'Lora', serif;
+    margin-bottom: 5px;
+}
+
+.Customer{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.Customer:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+    background: var(--accent-gradient);
+    color: var(--white);
+}
+
+/* navbar */
+
+.navbar{
+    height: 70px;
+    background: var(--accent-gradient);
+}
+
+.nav-items{
+    background: var(--accent-gradient);
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand{
+    color: var(--white);
+}
+
+.navbar .nav-link:hover{
+    color:var(--text)
+}
+/* footer */
+
+.footer{
+    width: 100%;
+    margin: 0px;
+    background: var(--accent-gradient);
+}
+
+.footer-title{
+    font-family: 'lora', serif;
+    margin-top: 50px;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.footer-info:hover{
+    color:var(--text)
+}
+
+.footer-input{
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+    background-color: var(--white);
+    outline: none;
+    width: 100%;
+    padding: 5px 0;
+    max-width: 400px;
+    margin: auto;
+}
+.footer-btn{
+    margin-top: 20px;
+}
+
+.footer-links{
+    color: white;
+    text-decoration: none;
+}

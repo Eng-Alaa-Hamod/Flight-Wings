@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Flight Wings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+   <nav class="navbar navbar-expand-sm fixed-top m-0">
+
+        <div class="container-fluid nav-items">
+
+            <a href="./index.html" class="navbar-brand text-primary"><img src="../images/logo-blue.svg" width="48" height="48">
+                <span style="color: #fff;" class="m-2">FlightWings</span>
+                </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" onclick="addActive()">
+
+            <span class="navbar-toggle-icon">
+
+                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+
+            </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./services.html">Services</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./about.html">About us</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./contact.html">Contact us</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./location.html">Location</a></li>
+
+                </ul>
+                
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container contact-us-top" style="margin-top: 80px; margin-bottom: 80px;">
+
+        <h1 class="contact-us-title">Contact Us :</h1>
+         <p class="contact-us-info">Fill out the form below and we will get back to you as soon as possible.</p>
+    <div class="row m-5 contact-us-row">
+
+        <div class="col-md-6 col-sm-0">
+            <img src="../images/contact.jpg" alt="Contact Us" class="img-fluid-contact-us">
+        </div>
+
+
+        <div class="col-md-6 col-sm-12">
+            <form action="Get" method="post">
+
+                <div class="form-group-contact-us">
+                    <label class="label-contact-us" for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group-contact-us">
+                    <label class="label-contact-us" for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group-contact-us">
+                    <label class="label-contact-us" for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+
+                <div class="form-group-contact-us">
+                    <label class="label-contact-us" for="date">Date:</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <div class="container contact-us-bottom" style="margin-top: 80px; margin-bottom: 80px;">
+        <h1 class="contact-us-title">OR :</h1>
+        <p class="contact-us-info">If you have any questions, please feel free to contact us:</p>
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12">
+                <ul class="contact-us-list">
+                    <li class="contack-us-item"><i class="bi bi-envelope"></i> Email: <a href="mailto:info@flightwings.com">info@flightwings.com</a></li>
+                    <li class="contack-us-item"><i class="bi bi-telephone"></i> Phone:<a href="tel:+11234567890"> +1 (123) 456-7890</a></li>
+                 <li class="contack-us-item"><i class="bi bi-facebook"></i> <a href="https://facebook.com/flightwings" target="_blank">Facebook</a></li>
+                    <li class="contack-us-item"><i class="bi bi-twitter"></i> <a href="https://twitter.com/flightwings" target="_blank">Twitter</a></li>
+                    <li class="contack-us-item"><i class="bi bi-instagram"></i> <a href="https://instagram.com/flightwings" target="_blank">Instagram</a></li>
+                    <li class="contack-us-item"><i class="bi bi-geo-alt"></i> Address:<a href="https://maps.google.com/?q=123+Main+Street,+City,+Country" target="_blank"> 123 Main Street, City, Country</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="card contact-us-card-thank-you">
+                    <div class="card-body">
+                        <h5 class="card-title-contact-us mt-0">thanking you for your interest in our services.</h5>
+                    </div>
+                    <p class="card-text-contact-us">We appreciate your inquiry and will respond to you as soon as possible.<br>and for any further assistance, please do not hesitate to contact us.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer text-center footer-expand-lg">
+
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="footer-title">Contact Us</h5>
+                <p class="footer-info"><i class="bi bi-telephone-fill"></i><a class="footer-links" href="tel:+1234567890"> +1 234 567 890</a></p>
+                <p class="footer-info"><i class="bi bi-envelope-fill"></i> <a class="footer-links" href="mailto:info@creabrand.com">info@creabrand.com</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="footer-title">Follow Us</h5>
+                <p class="footer-info"><i class="bi bi-facebook"></i> <a class="footer-links" href="https://www.facebook.com/creabrand" target="_blank">Facebook</a></p>
+                <p class="footer-info"><i class="bi bi-twitter"></i> <a class="footer-links" href="https://twitter.com/creabrand" target="_blank">Twitter</a></p>
+                <p class="footer-info"><i class="bi bi-instagram"></i> <a class="footer-links" href="https://www.instagram.com/creabrand" target="_blank">Instagram</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="footer-title">Newsletter</h5>
+                <p class="footer-info">Subscribe to our newsletter for the latest updates.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control footer-input" placeholder="Your Email">
+                    </div>
+                    <button type="submit" class="btn btn-primary footer-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <p class="mb-0">&copy; 2026 CreaBrand. All rights reserved.</p>
+        <br>
+    </footer>
+    
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

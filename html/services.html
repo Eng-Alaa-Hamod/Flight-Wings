@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <title>Flight Wings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <nav class="navbar navbar-expand-sm fixed-top m-0">
+
+        <div class="container-fluid nav-items">
+
+            <a href="./index.html" class="navbar-brand text-primary"><img src="../images/logo-blue.svg" width="48" height="48">
+                <span style="color: #fff;" class="m-2">FlightWings</span>
+                </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" onclick="addActive()">
+
+            <span class="navbar-toggle-icon">
+
+                <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+
+            </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./services.html">Services</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./about.html">About us</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./contact.html">Contact us</a></li>
+                    <li class="nav-item"><a target="_parent" class="nav-link" href="./location.html">Location</a></li>
+
+                </ul>
+                
+            </div>
+
+        </div>
+
+    </nav>
+    
+    <div class="container" style="margin-top: 80px; margin-bottom: 80px;">
+        <h2 class="mb-4 main-heading-title">Everything you need for a perfect journey, in one place.</h2>
+        <h4 class="mb-3 section-heading-title">What we offer?</h4>
+        <h6 class="mb-4 section-heading-title">Our Services are :</h6>
+        <ul>
+            <li class="service-item"><b class="service-item-title">Flight Booking:</b> We offer a user-friendly platform to search and book flights to various destinations worldwide. Our system provides competitive prices and a wide range of options to choose from.</li>
+            <li class="service-item"><b class="service-item-title">Hotel Reservations:</b> We provide hotel booking services, allowing you to find and reserve accommodations that suit your preferences and budget. Our platform offers a variety of hotels, from budget-friendly to luxury options.</li>
+            <li class="service-item"><b class="service-item-title">Car Rentals:</b> We offer car rental services, enabling you to rent vehicles for your travel needs. Whether you need a compact car for city exploration or a larger vehicle for a family trip, we have options available.</li>
+            <li class="service-item"><b class="service-item-title">Travel Insurance:</b> We provide travel insurance options to ensure that you are protected during your journey. Our insurance plans cover various aspects of travel, including trip cancellations, medical emergencies, and lost luggage.</li>
+            <li class="service-item"><b class="service-item-title">Customer Support:</b> Our dedicated customer support team is available 24/7 to assist you with any inquiries or issues you may encounter during the booking process or while traveling. We strive to provide excellent service and support to our customers.</li>
+        </ul>
+    </div>
+
+    <div class="container">
+
+       <h4 class="mb-3 section-heading-title">What about Travel Classes?</h4> 
+
+        <div class="row mb-4 mt-2 service-classes-row">
+
+            <div class="col-md-3 col-sm-12 m-auto mb-2 card service-class-card p-3">
+                <i class="bi bi-cup-hot-fill m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">Economy Class</h5>
+                <p class="service-class-description">Comfortable seating, delicious meals, and hundreds of entertainment options – all at an affordable price.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2  card service-class-card p-3">
+                <i class="bi bi-briefcase-fill m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">Business Class</h5>
+                <p class="service-class-description">More space to work or relax, priority services, and fine dining curated by top chefs.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2  card service-class-card p-3">
+                <i class="bi bi-star-fill m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">First Class</h5>
+                <p class="service-class-description">The ultimate privacy and luxury in the sky. A personal suite with a dedicated chef and an exclusive lounge.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+       <h4 class="mb-3 section-heading-title">What about services on plan?</h4> 
+
+        <div class="row mb-4 mt-2 service-classes-row">
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2  card service-class-card-plan p-3">
+                <i class="bi bi-tv m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">Entertainment</h5>
+                <p class="service-class-description">Over 1,000 movies, TV shows, music albums, and games. Available in 12 languages.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2  card service-class-card-plan p-3">
+                <i class="bi bi-fork-knife m-auto class-icon">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" style="width: 40px; height: 40px;" fill="currentColor" class="bi bi-fork-knife" viewBox="0 0 16 16">
+                        <path d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z"/>
+                    </svg>
+
+                </i>
+                <h5 class="service-class-title m-auto">Dining</h5>
+                <p class="service-class-description">Chef-designed meals, and special menus (vegetarian, gluten-free, halal) reserved in advance.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2 card service-class-card-plan p-3">
+                <i class="bi bi-wifi m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">Connectivity</h5>
+                <p class="service-class-description">Stay connected with our high-speed Wi-Fi packages. Send emails, browse, or stream.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+       <h4 class="mb-3 section-heading-title">Special service:</h4> 
+
+        <div class="row mb-4 mt-2 service-classes-row">
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2  card special-service-class-card p-3">
+                <i class="bi bi-bus-front m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">Fast Track</h5>
+                <p class="service-class-description">Priority security and immigration in selected airports.and easy boarding. you can save time and hassle with our Fast Track service.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2  card special-service-class-card p-3">
+                <i class="bi bi-passport m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">Visa & Travel Documents</h5>
+                <p class="service-class-description">Check the entry requirements of your destination. We recommend all passengers verify visa rules before booking.</p>
+            </div>
+
+            <div class="col-md-3 col-sm-12 m-auto  mb-2  card special-service-class-card p-3">
+                <i class="bi bi-person-wheelchair m-auto class-icon"></i>
+                <h5 class="service-class-title m-auto">Special Assistance</h5>
+                <p class="service-class-description">We provide special assistance for passengers with disabilities or special needs. you can contact us for more information.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <br>
+    <br>
+    <div class="container">
+        <h4 class="mb-3 section-heading-title">What are you waiting for?</h4>
+        <p style="color: #555;">Book your next trip with us and experience the best travel service!</p>
+        <button class="btn btn-service"><a href="booking.html" style="color: inherit; text-decoration: none;">Book Now</a></button>
+
+    </div>
+
+
+
+
+    <!-- Questions & Answers -->
+        <div class="container">
+            <h2 class="title-Questions text-center">Questions & Answers</h2>
+            <div class="accordion accordion-flush" class="Questions & Answers">
+                
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+                        <button style="border: 1px solid black; border-radius: 8px; margin:0px;"
+                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-1">
+                            How can I change or cancel my booking?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="question-1" data-bs-parent="#accordionQuesion">
+                        <div class="accordion-body">You can modify your trip through "Manage Booking" on our website.
+                             Flexible tickets allow free changes 24h before departure.</div>
+                    </div>
+                
+                </div>
+
+                <br>
+
+                <div class="accordion-item">
+                    
+                    <h2 class="accordion-header">
+                        <button style="border: 1px solid black; border-radius: 8px; margin: 0px;" class="accordion-button collapsed" 
+                        type="button" data-bs-toggle="collapse" data-bs-target="#question-2">
+                            Are pets allowed in the cabin?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="question-2" data-bs-parent="#accordionQuesion">
+                        <div class="accordion-body">Small cats and dogs can travel in the cabin on certain routes. Service animals are always welcome free of charge.</div>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="accordion-item">
+                    
+                    <h2 class="accordion-header">
+                        <button style="border: 1px solid black; border-radius: 8px; margin: 0px;" 
+                        class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-3">
+                            What if my baggage is delayed or lost?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="question-3" data-bs-parent="#accordionQuesion">
+                        <div class="accordion-body">Please report immediately at our arrival services desk.
+                             We will track your bag and keep you updated.</div>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="accordion-item">
+                    
+                    <h2 class="accordion-header">
+                        <button style="border: 1px solid black; border-radius: 8px; margin: 0px;" class="accordion-button collapsed" 
+                        type="button" data-bs-toggle="collapse" data-bs-target="#question-4">
+                            Do you offer meals for children?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="question-4" data-bs-parent="#accordionQuesion">
+                        <div class="accordion-body">Yes, a special kids' meal is available on all international flights. Request it when booking or at least 48h before departure.</div>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div class="accordion-item">
+                    
+                    <h2 class="accordion-header">
+                        <button style="border: 1px solid black; border-radius: 8px; margin: 0px;" class="accordion-button collapsed" 
+                        type="button" data-bs-toggle="collapse" data-bs-target="#question-5">
+                            Baggage Allowance?
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="question-5" data-bs-parent="#accordionQuesion">
+                        <div class="accordion-body">
+                            Economy Class: 1 carry-on (7kg) + 1 checked bag (20kg).<br>
+                            Business Class: 2 carry-ons (7kg each) + 2 checked bags (32kg each).<br>
+                            First Class: 3 carry-ons (7kg each) + 3 checked bags (32kg each).
+                        </div>
+                    </div>
+
+                </div>
+
+                <br>
+
+            </div>
+        </div>
+    
+    
+    <footer class="footer text-center footer-expand-lg">
+
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="footer-title">Contact Us</h5>
+                <p class="footer-info"><i class="bi bi-telephone-fill"></i><a class="footer-links" href="tel:+1234567890"> +1 234 567 890</a></p>
+                <p class="footer-info"><i class="bi bi-envelope-fill"></i> <a class="footer-links" href="mailto:info@creabrand.com">info@creabrand.com</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="footer-title">Follow Us</h5>
+                <p class="footer-info"><i class="bi bi-facebook"></i> <a class="footer-links" href="https://www.facebook.com/creabrand" target="_blank">Facebook</a></p>
+                <p class="footer-info"><i class="bi bi-twitter"></i> <a class="footer-links" href="https://twitter.com/creabrand" target="_blank">Twitter</a></p>
+                <p class="footer-info"><i class="bi bi-instagram"></i> <a class="footer-links" href="https://www.instagram.com/creabrand" target="_blank">Instagram</a></p>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="footer-title">Newsletter</h5>
+                <p class="footer-info">Subscribe to our newsletter for the latest updates.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control footer-input" placeholder="Your Email">
+                    </div>
+                    <button type="submit" class="btn btn-primary footer-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <p class="mb-0">&copy; 2026 CreaBrand. All rights reserved.</p>
+        <br>
+    </footer>
+    
+    <script src="../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
